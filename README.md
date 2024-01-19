@@ -3,9 +3,10 @@
 Just my personal, non-python, slightly-modified Ableton Live 11 remote script for the Akai MPK Mini Plus. 
 
 What this is for:
-- Enabling relative encoders
-- Allowing macro bank switching via the FF/RW buttons to utilize all 16 macro knobs on rack devices, etc. (I just realized one could probably make more banks to control more than 16 parameters in instruments/FX plug-ins)
+- Enabling relative encoders.
+- Allowing macro bank switching via the FF/RW buttons to utilize all 16 macro knobs on rack devices, etc. (I just realized one could probably make more banks to control more than 16 parameters in instruments/FX plug-ins).
 - Toggling between different knob speeds (Optional. Requires MidiPipe) The knob action is pretty slow by default so I made a few Pipes to toggle different modes to suit various knob curve preferences.
+- Toggling ability white keys between C3 and C6 to act as momentary CC messages. I use this for FX throws etc, kind of how you might use an SP-404 or similar.  
 
 Usage:
 - Using the Akai Professional MPK mini Plus Program Editor, change each knob from "Absolute" to "Relative". Alternatively, open the .mpkminiplus program in the editor, change any other settings you desire, and send it to the controller. Make sure you backup your custom programs before sending this one to your unit
